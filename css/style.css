@@ -1,0 +1,105 @@
+@font-face{
+    src: url(../font/Poppins-SemiBold.otf);
+    font-family: popins;
+    
+}
+
+  header .logo{
+    margin-top: 50px;
+  }
+  header .logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%; 
+    height: auto;
+    
+  }
+  header .text{
+    font-family: popins;
+    padding: 30px;
+    padding-bottom: 0;
+    font-size:  25px;
+    text-align: center;
+  }
+
+
+  .images {
+    margin-top: 50px;
+  }
+  .images .col-md-12 img{
+    width: 23%; 
+   
+  }
+  .images .col-md-12 .image1{
+    margin-right: 20px;
+  }
+  .images  .text{
+    font-family: popins;
+    padding: 30px;
+    font-size:  25px;
+    text-align: center;
+  }
+
+
+
+  .limitless  .text{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: popins;
+    font-size:  25px;
+    text-align: center; 
+  }
+  .limitless .col-md-12 img{
+    margin-top: 30px;
+    width: 23%;
+  } 
+  .limitless .col-md-12 .image1{
+    margin-right: 20px;
+  }
+
+
+
+
+
+  footer{
+    margin-top: 50px;
+  }
+
+  footer .footerimg  {
+    position: relative;
+  }
+  footer .footerimg .button{
+    position: absolute;
+    width: 20%;
+    top:  40%;
+    right: 5%;
+  }
+
+  footer .footerimg .button img{
+    width: 100%;
+  }
+  footer .footerimg .button .btn{
+    margin-bottom: 10px;
+  }
+
+
+
+  @media (max-width: 425px){
+    footer .footerimg .button .btn{
+        margin-bottom: 0px;
+      }
+      .images .col-md-12 .image1{
+        margin-right: 5px;
+      }
+      .limitless .col-md-12 .image1{
+        margin-right: 5px;
+      }
+      header .logo img{
+        width: 50%;   
+      }
+    
+  }
+
+
+  
